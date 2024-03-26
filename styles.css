@@ -46,3 +46,30 @@ p {
   column-gap: 10px;
   align-items: flex-end;
 }
+
+.header-nav-ref {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.header-nav-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 35px) 1fr;
+  column-gap: 30px;
+}
+
+.header-group {
+  display: grid;
+  grid-template-columns: 82px 1fr;
+  align-items: center;
+  column-gap: 625px;
+}
+
+.header-nav-ref:hover {
+  color: #f2994a;
+}
