@@ -33,3 +33,16 @@ p {
   padding-right: 15px;
   max-width: 1170px;
 }
+
+.header {
+  background: #000d1f;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.header-logo-group {
+  display: grid;
+  grid-template-columns: 1px 1fr;
+  column-gap: 10px;
+  align-items: flex-end;
+}
