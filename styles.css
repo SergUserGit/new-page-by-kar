@@ -108,8 +108,27 @@ p {
   color: #02234d;
   font-family: "Bricolage Grotesque", sans-serif;
   width: 610px;
+  margin-bottom: 23px;
 }
 
 .section-one {
   background: #fff;
+}
+
+.main-time-ph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #50739f;
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin-bottom: 17px;
+}
+
+.main-autor-ph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #02234d;
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin-bottom: 23px;
 }
