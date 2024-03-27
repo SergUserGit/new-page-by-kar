@@ -73,3 +73,43 @@ p {
 .header-nav-ref:hover {
   color: #f2994a;
 }
+
+.main {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  background-color: #E0FFFF;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 126px 57px 1fr;
+  column-gap: 3px;
+  margin-bottom: 34px;
+}
+
+.main-nav-ref {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #a7b2c0;
+  text-decoration: none;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.main-nav-ref:hover {
+  color: #02234d;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #02234d;
+  font-family: "Bricolage Grotesque", sans-serif;
+  width: 610px;
+}
+
+.section-one {
+  background: #fff;
+}
