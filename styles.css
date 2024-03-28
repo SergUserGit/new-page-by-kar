@@ -132,3 +132,31 @@ p {
   font-family: "Bricolage Grotesque", sans-serif;
   margin-bottom: 23px;
 }
+
+.main-bitcoin-image {
+  margin-bottom: 28px;
+}
+
+.layer-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 610px;
+  row-gap: 30px;
+}
+
+.layer-list-ph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #02234d;
+  width: 610px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.layer-list-ref {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #02234d;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
