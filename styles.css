@@ -244,3 +244,28 @@ p {
   column-gap: 23px;
   align-items: center;
 }
+
+.footer {
+  background: #000d1f;
+}
+
+.footer-logo-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 268px;
+  row-gap: 95px;
+}
+
+.footer-logo-ph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  font-family: "Bricolage Grotesque", sans-serif;
+  width: 200px;
+}
+
+.footer-logo-ph:hover {
+  color: #f2994a;
+  ;
+}
