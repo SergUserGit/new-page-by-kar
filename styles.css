@@ -64,6 +64,7 @@ p {
 }
 
 .header-group {
+  background: #000d1f;
   display: grid;
   grid-template-columns: 82px 1fr;
   align-items: center;
