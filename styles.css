@@ -265,6 +265,7 @@ p {
   color: #fff;
   font-family: "Bricolage Grotesque", sans-serif;
   width: 200px;
+  cursor: pointer;
 }
 
 .footer-logo-ph:hover {
@@ -290,6 +291,7 @@ p {
   color: #fff;
   font-family: "Bricolage Grotesque", sans-serif;
   margin-bottom: 2px;
+  cursor: pointer;
 }
 
 .footer-terms-ph {
@@ -299,6 +301,7 @@ p {
   color: #fff;
   font-family: "Bricolage Grotesque", sans-serif;
   margin-bottom: 2px;
+  cursor: pointer;
 }
 
 .footer-discl-ph {
@@ -307,4 +310,79 @@ p {
   line-height: 150%;
   color: #fff;
   font-family: "Bricolage Grotesque", sans-serif;
+  cursor: pointer;
+}
+
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 268px 270px 1px;
+  column-gap: 205px;
+}
+
+.footer-adress-street {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.footer-adress {
+  display: grid;
+  grid-template-columns: 267px;
+  row-gap: 90px;
+}
+
+.footer-adress-phone {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.footer-adress-email {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.footer-adress-street:hover {
+  color: #f2994a;
+}
+
+.footer-adress-phone:hover {
+  color: #f2994a;
+}
+
+.footer-adress-email:hover {
+  color: #f2994a;
+}
+
+.footer-logo-span {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-logo-span:hover {
+  color: #f2994a;
+}
+
+.footer-logo-group {
+  display: grid;
+  grid-template-columns: 1px 1fr;
+  column-gap: 15px;
+  align-self: flex-end;
 }
