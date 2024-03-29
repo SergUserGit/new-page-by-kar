@@ -247,6 +247,8 @@ p {
 
 .footer {
   background: #000d1f;
+  padding-top: 47px;
+  padding-bottom: 65px;
 }
 
 .footer-logo-list {
@@ -267,5 +269,42 @@ p {
 
 .footer-logo-ph:hover {
   color: #f2994a;
-  ;
+}
+
+.footer-privacy-ph:hover {
+  color: #f2994a;
+}
+
+.footer-terms-ph:hover {
+  color: #f2994a;
+}
+
+.footer-discl-ph:hover {
+  color: #f2994a;
+}
+
+.footer-privacy-ph {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin-bottom: 2px;
+}
+
+.footer-terms-ph {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin-bottom: 2px;
+}
+
+.footer-discl-ph {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  font-family: "Bricolage Grotesque", sans-serif;
 }
