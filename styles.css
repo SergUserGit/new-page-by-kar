@@ -40,6 +40,12 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    max-width: 450px;
+  }
+}
+
 .header {
   background: #000d1f;
   padding-top: 22px;
@@ -52,6 +58,14 @@ p {
     padding-bottom: 16px;
   }
 }
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .header {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+}
+
 
 .header-logo-group {
   display: grid;
@@ -85,6 +99,15 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .header-nav-list {
+    grid-template-columns: 450px;
+    row-gap: 25px;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
 .header-group {
   background: #000d1f;
   display: grid;
@@ -96,6 +119,15 @@ p {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .header-group {
     grid-template-columns: 290px;
+    row-gap: 25px;
+    justify-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .header-group {
+    grid-template-columns: 450px;
     row-gap: 25px;
     justify-items: center;
     justify-content: center;
@@ -122,6 +154,16 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .main {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 450px;
+  }
+}
+
 .main-wrapper {
   display: grid;
   grid-template-columns: 670px 1fr;
@@ -131,6 +173,16 @@ p {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .main-wrapper {
     grid-template-columns: 290px;
+    row-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .main-wrapper {
+    grid-template-columns: 450px;
     row-gap: 25px;
     justify-content: center;
     align-items: center;
@@ -157,6 +209,16 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .main-nav-list {
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    grid-template-columns: 155px 155px 1fr;
+  }
+}
+
 .main-nav-ref {
   font-weight: 400;
   font-size: 14px;
@@ -170,6 +232,14 @@ p {
   .main-nav-ref {
     font-size: 10px;
     line-height: 150%;
+  }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .main-nav-ref {
+    font-size: 12px;
+    line-height: 130%;
   }
 }
 
@@ -198,6 +268,16 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .main-title {
+    width: 410px;
+    font-size: 28px;
+    line-height: 120%;
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
 .section-one {
   background: #fff;
   padding-top: 40px;
@@ -208,6 +288,16 @@ p {
   .section-one {
     display: grid;
     grid-template-columns: 290px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .section-one {
+    display: grid;
+    grid-template-columns: 450px;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -232,6 +322,13 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .main-time-ph {
+    font-size: 12px;
+    line-height: 120%;
+    margin-left: 0;
+  }
+}
 
 .main-autor-ph {
   font-weight: 500;
@@ -251,6 +348,14 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .main-autor-ph {
+    font-size: 14px;
+    line-height: 100%;
+    margin-left: 0;
+  }
+}
+
 .main-bitcoin-image {
   margin-bottom: 28px;
 }
@@ -258,6 +363,12 @@ p {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .main-bitcoin-image {
     width: 250px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .main-bitcoin-image {
+    width: 410px;
   }
 }
 
@@ -270,6 +381,16 @@ p {
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
+  .layer-list {
+    grid-template-columns: 610px;
+    row-gap: 25px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .layer-list {
     grid-template-columns: 610px;
     row-gap: 25px;
@@ -292,6 +413,14 @@ p {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .layer-list-ph {
     width: 250px;
+    font-size: 12px;
+    line-height: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .layer-list-ph {
+    width: 410px;
     font-size: 12px;
     line-height: 100%;
   }
@@ -321,6 +450,17 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .section-two {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 450px;
+    padding-bottom: 30px;
+  }
+}
+
 .bitcoins-title {
   font-weight: 700;
   font-size: 30px;
@@ -334,6 +474,15 @@ p {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .bitcoins-title {
     font-size: 26px;
+    line-height: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .bitcoins-title {
+    font-size: 28px;
     line-height: 100%;
     margin-left: 0;
     text-align: center;
@@ -359,7 +508,20 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .bitcoin-line {
+    width: 140px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
+  .bitcoin-list {
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .bitcoin-list {
     align-items: center;
     justify-items: center;
@@ -384,6 +546,14 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .bitcoin-item-title {
+    width: 140px;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
 .bitcoin-item-phone {
   font-weight: 400;
   font-size: 13px;
@@ -397,6 +567,14 @@ p {
   .bitcoin-item-phone {
     width: 140px;
     font-size: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .bitcoin-item-phone {
+    width: 140px;
+    font-size: 12px;
     text-align: center;
   }
 }
@@ -415,7 +593,19 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .bitcoin-item-spanone {
+    font-size: 12px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
+  .group-spans-two {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .group-spans-two {
     text-align: center;
   }
@@ -434,6 +624,12 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .bitcoin-item-spantwo {
+    font-size: 12px;
+  }
+}
+
 .bitcoin-item {
   display: grid;
   grid-template-columns: 140px 1fr;
@@ -442,6 +638,13 @@ p {
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
+  .bitcoin-item {
+    grid-template-columns: 140px;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .bitcoin-item {
     grid-template-columns: 140px;
     row-gap: 20px;
@@ -467,11 +670,11 @@ p {
   }
 }
 
-/*@media screen and (min-width: 320px) and (max-width: 479px) {
-  .footer-adress {
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-logo-list {
     row-gap: 30px;
   }
-}*/
+}
 
 .footer-logo-ph {
   font-weight: 400;
@@ -486,6 +689,14 @@ p {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .footer-logo-ph {
     font-size: 12px;
+    text-align: center;
+    width: 290px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-logo-ph {
+    font-size: 13px;
     text-align: center;
     width: 290px;
   }
@@ -524,6 +735,13 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-privacy-ph {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
 .footer-terms-ph {
   font-weight: 500;
   font-size: 14px;
@@ -537,6 +755,13 @@ p {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .footer-terms-ph {
     font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-terms-ph {
+    font-size: 13px;
     text-align: center;
   }
 }
@@ -557,6 +782,13 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-discl-ph {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
 .footer-wrapper {
   display: grid;
   grid-template-columns: 268px 270px 1px;
@@ -567,6 +799,17 @@ p {
   .footer-wrapper {
     display: grid;
     grid-template-columns: 290px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: 450px;
     justify-content: center;
     align-items: center;
     justify-items: center;
@@ -591,6 +834,13 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-adress-street {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
 .footer-adress {
   display: grid;
   grid-template-columns: 267px;
@@ -598,6 +848,12 @@ p {
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-adress {
+    row-gap: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .footer-adress {
     row-gap: 30px;
   }
@@ -620,6 +876,13 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-adress-phone {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
 .footer-adress-email {
   font-weight: 400;
   font-size: 14px;
@@ -634,6 +897,13 @@ p {
   .footer-adress-email {
     text-align: center;
     font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-adress-email {
+    text-align: center;
+    font-size: 13px;
   }
 }
 
@@ -661,6 +931,12 @@ p {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .footer-logo-span {
     font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-logo-span {
+    font-size: 42px;
   }
 }
 
