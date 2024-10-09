@@ -461,6 +461,18 @@ p {
   row-gap: 95px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-logo-list {
+    row-gap: 30px;
+  }
+}
+
+/*@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-adress {
+    row-gap: 30px;
+  }
+}*/
+
 .footer-logo-ph {
   font-weight: 400;
   font-size: 14px;
@@ -469,6 +481,14 @@ p {
   font-family: "Bricolage Grotesque", sans-serif;
   width: 200px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-logo-ph {
+    font-size: 12px;
+    text-align: center;
+    width: 290px;
+  }
 }
 
 .footer-logo-ph:hover {
@@ -497,6 +517,13 @@ p {
   cursor: pointer;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-privacy-ph {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
 .footer-terms-ph {
   font-weight: 500;
   font-size: 14px;
@@ -505,6 +532,13 @@ p {
   font-family: "Bricolage Grotesque", sans-serif;
   margin-bottom: 2px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-terms-ph {
+    font-size: 12px;
+    text-align: center;
+  }
 }
 
 .footer-discl-ph {
@@ -516,10 +550,28 @@ p {
   cursor: pointer;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-discl-ph {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
 .footer-wrapper {
   display: grid;
   grid-template-columns: 268px 270px 1px;
   column-gap: 205px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: 290px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    row-gap: 20px;
+  }
 }
 
 .footer-adress-street {
@@ -532,10 +584,23 @@ p {
   cursor: pointer;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-adress-street {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
 .footer-adress {
   display: grid;
   grid-template-columns: 267px;
   row-gap: 90px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-adress {
+    row-gap: 30px;
+  }
 }
 
 .footer-adress-phone {
@@ -548,6 +613,13 @@ p {
   cursor: pointer;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-adress-phone {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
 .footer-adress-email {
   font-weight: 400;
   font-size: 14px;
@@ -556,6 +628,13 @@ p {
   font-family: "Bricolage Grotesque", sans-serif;
   font-style: normal;
   cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-adress-email {
+    text-align: center;
+    font-size: 12px;
+  }
 }
 
 .footer-adress-street:hover {
@@ -577,6 +656,12 @@ p {
   color: #fff;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-logo-span {
+    font-size: 40px;
+  }
 }
 
 .footer-logo-span:hover {
