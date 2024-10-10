@@ -1005,6 +1005,15 @@ p {
   }
 }
 
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: 150px 250px 1px;
+    column-gap: 90px;
+  }
+}
+
 .footer-adress-street {
   font-weight: 400;
   font-size: 14px;
