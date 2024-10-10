@@ -179,6 +179,7 @@ p {
     display: grid;
     grid-template-columns: 290px;
     width: 610px;
+    background-color: #fff;
   }
 }
 
@@ -371,6 +372,7 @@ p {
     justify-content: center;
     justify-items: center;
     width: 610px;
+    padding-top: 0;
   }
 }
 
@@ -576,7 +578,7 @@ p {
     align-items: center;
     display: grid;
     grid-template-columns: 290px;
-    padding-bottom: 30px;
+    padding-bottom: 0;
     width: 610px;
   }
 }
