@@ -46,6 +46,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    max-width: 738px;
+  }
+}
+
 .header {
   background: #000d1f;
   padding-top: 22px;
@@ -66,6 +72,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
 
 .header-logo-group {
   display: grid;
@@ -81,6 +93,12 @@ p {
   color: #fff;
   text-decoration: none;
   font-family: "Bricolage Grotesque", sans-serif;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header-nav-ref {
+    font-size: 13px;
+  }
 }
 
 .header-nav-list {
@@ -134,6 +152,14 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header-group {
+    grid-template-columns: 82px 1fr;
+    align-items: center;
+    column-gap: 225px;
+  }
+}
+
 .header-nav-ref:hover {
   color: #f2994a;
 }
@@ -164,6 +190,16 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 738px;
+  }
+}
+
 .main-wrapper {
   display: grid;
   grid-template-columns: 670px 1fr;
@@ -183,6 +219,16 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .main-wrapper {
     grid-template-columns: 450px;
+    row-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main-wrapper {
+    grid-template-columns: 738px;
     row-gap: 25px;
     justify-content: center;
     align-items: center;
@@ -219,6 +265,20 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main-nav-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 129px 60px 1fr;
+    column-gap: 3px;
+    margin-bottom: 34px;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
 .main-nav-ref {
   font-weight: 400;
   font-size: 14px;
@@ -239,6 +299,13 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .main-nav-ref {
     font-size: 12px;
+    line-height: 130%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main-nav-ref {
+    font-size: 13px;
     line-height: 130%;
   }
 }
@@ -278,6 +345,16 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main-title {
+    width: 698px;
+    font-size: 29px;
+    line-height: 120%;
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
 .section-one {
   background: #fff;
   padding-top: 40px;
@@ -298,6 +375,16 @@ p {
   .section-one {
     display: grid;
     grid-template-columns: 450px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section-one {
+    display: grid;
+    grid-template-columns: 738px;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -330,6 +417,14 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main-time-ph {
+    font-size: 13px;
+    line-height: 120%;
+    margin-left: 0;
+  }
+}
+
 .main-autor-ph {
   font-weight: 500;
   font-size: 16px;
@@ -356,6 +451,14 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main-autor-ph {
+    font-size: 15px;
+    line-height: 100%;
+    margin-left: 0;
+  }
+}
+
 .main-bitcoin-image {
   margin-bottom: 28px;
 }
@@ -369,6 +472,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .main-bitcoin-image {
     width: 410px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main-bitcoin-image {
+    width: 698px;
   }
 }
 
@@ -400,6 +509,16 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .layer-list {
+    grid-template-columns: 610px;
+    row-gap: 25px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
 .layer-list-ph {
   font-weight: 400;
   font-size: 16px;
@@ -422,6 +541,14 @@ p {
   .layer-list-ph {
     width: 410px;
     font-size: 12px;
+    line-height: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .layer-list-ph {
+    width: 698px;
+    font-size: 15px;
     line-height: 100%;
   }
 }
@@ -461,6 +588,17 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section-two {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 738px;
+    padding-bottom: 30px;
+  }
+}
+
 .bitcoins-title {
   font-weight: 700;
   font-size: 30px;
@@ -489,6 +627,15 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .bitcoins-title {
+    font-size: 29px;
+    line-height: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
 .bitcoin-list {
   list-style: none;
   display: grid;
@@ -511,6 +658,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .bitcoin-line {
     width: 140px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .bitcoin-line {
+    width: 445px;
   }
 }
 
@@ -554,6 +707,13 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .bitcoin-item-title {
+    width: 250px;
+    font-size: 15px;
+  }
+}
+
 .bitcoin-item-phone {
   font-weight: 400;
   font-size: 13px;
@@ -579,6 +739,13 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .bitcoin-item-phone {
+    width: 250px;
+    font-size: 13px;
+  }
+}
+
 .bitcoin-item-spanone {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -596,6 +763,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .bitcoin-item-spanone {
     font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .bitcoin-item-spanone {
+    font-size: 13px;
   }
 }
 
@@ -630,6 +803,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .bitcoin-item-spantwo {
+    font-size: 13px;
+  }
+}
+
 .bitcoin-item {
   display: grid;
   grid-template-columns: 140px 1fr;
@@ -648,6 +827,15 @@ p {
   .bitcoin-item {
     grid-template-columns: 140px;
     row-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .bitcoin-item {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    column-gap: 60px;
+    align-items: center;
   }
 }
 
@@ -955,7 +1143,6 @@ p {
   list-style: none;
 }
 
-/*@media screen and (min-width: 320px) and (max-width: 479px) {*/
-/*@media screen and (min-width: 480px) and (max-width: 767px) {*/
+
 /*@media screen and (min-width: 768px) and (max-width: 1199px) {*/
 /*@media screen and (min-width: 1200px) { {*/
