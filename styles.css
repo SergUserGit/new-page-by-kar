@@ -370,6 +370,7 @@ p {
     align-items: center;
     justify-content: center;
     justify-items: center;
+    width: 610px;
   }
 }
 
@@ -576,6 +577,7 @@ p {
     display: grid;
     grid-template-columns: 290px;
     padding-bottom: 30px;
+    width: 610px;
   }
 }
 
