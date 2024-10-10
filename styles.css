@@ -203,6 +203,8 @@ p {
     align-items: center;
     display: grid;
     grid-template-columns: 738px;
+    background-color: #fff;
+    padding-top: 0;
   }
 }
 
@@ -277,7 +279,7 @@ p {
     display: grid;
     grid-template-columns: 129px 60px 1fr;
     column-gap: 3px;
-    margin-bottom: 34px;
+    margin-bottom: 20px;
     margin-left: 0;
     justify-content: center;
     align-items: center;
@@ -398,6 +400,8 @@ p {
     align-items: center;
     justify-content: center;
     justify-items: center;
+    padding-bottom: 0;
+    padding-top: 20px;
   }
 }
 
@@ -607,7 +611,8 @@ p {
     align-items: center;
     display: grid;
     grid-template-columns: 738px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
+    padding-top: 0;
   }
 }
 
