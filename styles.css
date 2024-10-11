@@ -69,7 +69,6 @@ p {
   .header {
     padding-top: 18px;
     padding-bottom: 18px;
-    width: 610px;
   }
 }
 
@@ -189,7 +188,6 @@ p {
     align-items: center;
     display: grid;
     grid-template-columns: 450px;
-    width: 610px;
     background-color: #fff;
   }
 }
@@ -265,7 +263,6 @@ p {
     justify-items: center;
     align-items: center;
     justify-content: center;
-    margin-left: 0;
     grid-template-columns: 155px 155px 1fr;
   }
 }
@@ -342,7 +339,7 @@ p {
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .main-title {
-    width: 410px;
+    width: 450px;
     font-size: 28px;
     line-height: 120%;
     text-align: center;
@@ -372,7 +369,6 @@ p {
     grid-template-columns: 290px;
     align-items: center;
     justify-content: center;
-    /*  justify-items: center;*/
     padding-top: 0;
     padding-bottom: 5px;
   }
@@ -384,9 +380,8 @@ p {
     grid-template-columns: 450px;
     align-items: center;
     justify-content: center;
-    justify-items: center;
-    width: 610px;
     padding-top: 0;
+    padding-bottom: 5px;
   }
 }
 
@@ -426,6 +421,7 @@ p {
     font-size: 12px;
     line-height: 120%;
     margin-left: 0;
+    text-align: center;
   }
 }
 
@@ -461,6 +457,7 @@ p {
     font-size: 14px;
     line-height: 100%;
     margin-left: 0;
+    text-align: center;
   }
 }
 
@@ -552,7 +549,7 @@ p {
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .layer-list-ph {
-    width: 410px;
+    width: 450px;
     font-size: 12px;
     line-height: 100%;
   }
@@ -587,10 +584,17 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .group-bitcoin-image {
+    display: grid;
+    grid-template-columns: 450px;
+    justify-items: center;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .section-two {
     justify-content: center;
-    /*  justify-items: center;*/
     align-items: center;
     display: grid;
     grid-template-columns: 290px;
@@ -602,12 +606,11 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .section-two {
     justify-content: center;
-    justify-items: center;
     align-items: center;
     display: grid;
     grid-template-columns: 450px;
     padding-bottom: 0;
-    width: 610px;
+    padding-top: 5px;
   }
 }
 
@@ -869,17 +872,6 @@ p {
   padding-bottom: 65px;
 }
 
-/*@media screen and (min-width: 320px) and (max-width: 479px) {
-  .footer {
-    width: 610px;
-  }
-}*/
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .footer {
-    width: 610px;
-  }
-}
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer {
@@ -1211,5 +1203,3 @@ p {
 .footer-adress-date {
   list-style: none;
 }
-
-/*Test*/
